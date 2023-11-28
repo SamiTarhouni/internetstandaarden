@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+
+body{
+    background-color: rgb(255, 255, 255)
+}
+
+@font-face{
+  font-family: myfont;
+  src:url(Jujutsu\ Kaisen.ttf);
+}
+
+h1{
+    color: rgb(89, 3, 10);
+    text-align: center;
+    font-family: myfont;
+    font-size: 50px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+li{
+    margin-right: 150px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.JJKheader{
+    width: 400px;
+    height: 500x;
+    margin-top: 10px;
+    margin-left: 500px;
+
+    
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .text {
+    flex: 2; /* Hiermee neemt de tekst het beschikbare flexibele ruimte in beslag */
+  }
+  
+  .image {
+    flex: 0
+    ; /* Hiermee neemt de afbeelding het beschikbare flexibele ruimte in beslag */
+  }
+   
+
+  
