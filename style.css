@@ -12,7 +12,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(Jujutsu\ Kaisen.ttf);
+  src: url(jujutsukaisenfont.ttf);
 }
 
 .ben {
@@ -21,21 +21,16 @@ p {
 }
 
 h1 {
-  color: rgb(209, 0, 0);
+  color: rgb(127, 11, 11);
   text-align: center;
   font-family: myfont;
   font-size: 50px;
   margin-top: 2%;
+  text-shadow: rgb(255, 255, 255) 1px 1px 5px;
 }
 
 h2 {
   color: #ddd;
-}
-
-.bronnen,
-.bronnen a {
-  color: white;
-  margin-top: 4%;
 }
 
 
@@ -48,7 +43,7 @@ h2 {
 
 }
 
-ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -57,7 +52,7 @@ ul {
   /*de hele ul/li is van w3s*/
 }
 
-li {
+.navbar li {
   float: left;
 }
 
@@ -70,7 +65,7 @@ li a,
   text-decoration: none;
 }
 
-li a:hover,
+.navbar li a:hover,
 .dropdown:hover .dropbtn {
   background-color: red;
 }
@@ -119,6 +114,15 @@ li.dropdown {
 .informatie2 {
   display: flex;
   flex-direction: row;
+}
+
+.bronnen h4 {
+  color: white;
+  margin-left: 25px;
+}
+
+.bronnen li {
+  color: white;
 }
 
 .jjkstory {
@@ -219,20 +223,11 @@ li.dropdown {
   justify-content: center;
 }
 
-.karaktersja2,
-.karaktersja3 {
-  display: flex;
-  flex-direction: row;
-  display: inline-block;
-  margin-left: 45px;
-  margin: 16px;
-}
-
 .karaktersja2 img,
 .karaktersja3 img {
   display: inline-block;
-  margin-left: 65px;
-  width: 400px;
+  margin-left: 3.5%;
+  width: 28%;
   transition: all 0.8s;
   border: solid rgb(0, 0, 0);
   margin-top: -1.5%;
